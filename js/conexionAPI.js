@@ -8,6 +8,7 @@ async function listarProductos(){
     return conexionConvertida
 }
 
+
 async function enviarProducto(titulo,imagen,precio,descripcion) {
     const conexion = await fetch("https://my-json-server.typicode.com/Meli30/AluraGeek/productos",{
         method:"POST",
@@ -28,10 +29,10 @@ async function enviarProducto(titulo,imagen,precio,descripcion) {
 
 //función DELETE
 async function eliminarProducto(id) {
-    await fetch(`https://my-json-server.typicode.com/Meli30/AluraGeek/productos${id}`, {
+    await fetch(`https://my-json-server.typicode.com/Meli30/AluraGeek/productos/${id}`, {
         method: "DELETE",
-    });
-
+    }); 
+ 
 }
 
 export const conexionAPI = {
