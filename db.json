@@ -1,5 +1,5 @@
 {
-  "productos-gato": [
+  "productos": [
     {
       "id": "37fc",
       "titulo": "Animales de arrastre",
@@ -36,11 +36,18 @@
       "descripcion": "Madera de pino. Contiene 26 piezas."
     },
     {
-      "id": "9c4a",
-      "titulo": "Tablero de Números",
-      "imagen": "https://acdn.mitiendanube.com/stores/989/044/products/0ce934f9-fbdf-4574-ac52-cedc2f4363fe1-d3b0ac1a125624c9fc16172189086875-1024-1024.webp",
-      "precio": "10.000",
-      "descripcion": "Contiene 10 piezas."
+      "id": "34b3",
+      "titulo": "Cubierto de madera",
+      "imagen": "https://acdn.mitiendanube.com/stores/989/044/products/ff8917db-de96-4802-8761-6933a140b2fd1-e928d11a5c721c812e16356185286327-1024-1024.webp",
+      "precio": "3.000",
+      "descripcion": "Contiene 3 piezas."
+    },
+    {
+      "id": "f626",
+      "titulo": "Cubiertos por 3 piezas",
+      "imagen": "https://acdn.mitiendanube.com/stores/989/044/products/ff8917db-de96-4802-8761-6933a140b2fd1-e928d11a5c721c812e16356185286327-1024-1024.webp",
+      "precio": "3.000",
+      "descripcion": "Madera de pino"
     }
   ]
 }

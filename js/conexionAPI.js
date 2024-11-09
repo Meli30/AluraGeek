@@ -1,5 +1,5 @@
 async function listarProductos(){
-    const conexion = await fetch("http://localhost:3001/productos-gato");
+    const conexion = await fetch("http://localhost:3001/productos");
 
     const conexionConvertida =await conexion.json();
 
@@ -9,7 +9,7 @@ async function listarProductos(){
 }
 
 async function enviarProducto(titulo,imagen,precio,descripcion) {
-    const conexion = await fetch("http://localhost:3001/productos-gato",{
+    const conexion = await fetch("http://localhost:3001/productos",{
         method:"POST",
         headers:{'Content-type':'application/json'},
         body:JSON.stringify({
