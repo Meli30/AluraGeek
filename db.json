@@ -48,6 +48,13 @@
       "imagen": "https://acdn.mitiendanube.com/stores/989/044/products/ff8917db-de96-4802-8761-6933a140b2fd1-e928d11a5c721c812e16356185286327-1024-1024.webp",
       "precio": "3.000",
       "descripcion": "Madera de pino"
+    },
+    {
+      "id": "1cbe",
+      "titulo": "Cartel globo de madera",
+      "imagen": "https://acdn.mitiendanube.com/stores/989/044/products/20240925_153335-ea01b32d399d80998117272903516117-640-0.webp",
+      "precio": "20.000",
+      "descripcion": "50cm de alto y 35cm de ancho"
     }
   ]
 }
