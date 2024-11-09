@@ -55,6 +55,13 @@
       "imagen": "https://acdn.mitiendanube.com/stores/989/044/products/20240925_153335-ea01b32d399d80998117272903516117-640-0.webp",
       "precio": "20.000",
       "descripcion": "50cm de alto y 35cm de ancho"
+    },
+    {
+      "id": "26b7",
+      "titulo": "Enhebradores",
+      "imagen": "https://acdn.mitiendanube.com/stores/989/044/products/20221227_1547431-958521978b2029272716721692060169-640-0.webp",
+      "precio": "25.000",
+      "descripcion": "Contiene 12 piezas"
     }
   ]
 }
