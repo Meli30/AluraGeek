@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 59);
+    padding: 10px;
+}
+
+.contenedor-header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.contenedor-seccion-uno{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+}
+
+.contenedor-seccion-uno h1{
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+
+.contenedor_principal-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    overflow-y: auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;  
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover{
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.5); ;
+}
+
+.card h1{
+    font-size: 20px;
+}
+
+.card-img{
+    width: 120px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.card-text{
+    padding: 5px;
+}
+
+.card-value{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-value i{
+    cursor: pointer;
+}
+
+.card-value i:hover{
+    box-shadow: 0.5px 0.10px 0.5px 0.5px rgb(101, 96, 96);
+}
+
+.contenedor-seccion-dos{
+    display: flex;  
+    flex-direction: column;
+    padding: 30px;
+}
+
+.contenedor_principal_formulario{
+    padding: 20px;
+    height: 80%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 500px;
+
+}
+
+.formulario h2{
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+.campo-etiqueta{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.campo-escrito{
+    padding: 5px;
+    border-radius: 20px;
+    border: .5px solid;
+}
+
+.contenedor-botones{
+    padding-top: 20px;
+    align-self: center;   
+}
+
+.contenedor-botones button{
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+
+#boton-limpiar{
+    background-color: white;
+    border:0.5px solid black;
+    color: black;
+
+}
+
+#boton-limpiar:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+.contenedor-botones button:hover{
+    background-color: cadetblue;
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(34, 34, 59) ;
+    padding: 10px;
+    height: 150px;
+    color: white;
+}
+
+.contenedor-footer h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.contenedor-footer p{
+    font-size: 15px;
+    padding: 2px;
+}
+
+
+@media (min-width: 320px) and (max-width: 766px) {
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 5px;
+    }
+    
+    .contenedor-seccion-uno{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .contenedor-seccion-dos{
+        display: flex; 
+        align-items: center;
+        height: 500px;
+        width: 100%;
+        width: 100px;
+    }
+  
+    .contenedor_principal_formulario{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
+    
+    .formulario{
+        height: 400px;
+    }
+
+    .formulario h2{
+        font-family: monospace;
+        text-align: center;
+        padding: 10px;
+        font-size: 25px;
+    }
+    
+    .contenedor-botones button{
+        border-radius: 20px;
+        border: none;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 766px) {
+
+
+    .contenedor_principal-card{
+        overflow-y: scroll;
+        height: 500px;
+    }
+
+    .contenedor_principal_formulario{
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        height: 400px;
+    }
+
+
+    .contenedor-botones{
+        padding-top: 20px;
+        align-self: center;  
+        display: flex; 
+        gap: 10px;
+    }
+    
+    .contenedor-botones button{
+        border-radius: 20px;
+        border: none;
+        width: 120px;
+        height: 40px;
+    }
+}

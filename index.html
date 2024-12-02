@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c21e2c2f2d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="contenedor-header">
+        <h1><i class="fa-solid fa-heart" style="color: #fc0303;"></i> AluraGeek</h1>
+    </header>
+    <main>
+       <section class="contenedor-seccion-uno">
+        <h1>Mis Productos</h1>
+
+        <div class="contenedor_principal-card" data-lista>   
+            
+            
+        </div>
+
+       </section> 
+
+       <section class="contenedor-seccion-dos">
+        
+
+    <div class="contenedor_principal_formulario">
+        <form class="formulario" id="formulario_producto" data-formulario>
+            <h2>Agregar Producto</h2>
+            
+           <label class="campo-etiqueta" for="nombre">Nombre del Producto:</label>
+            <input class="campo-escrito" name="nombre" type="text" id="nombre" placeholder=" Juguete" data-name>
+
+            <label class="campo-etiqueta" for="descripcion">Descripción del Producto:</label>
+            <input class="campo-escrito" name="descripcion" type="text" id="descripcion" placeholder=" Ancho y alto" data-descripcion>
+    
+            <label class="campo-etiqueta" for="precio">Precio:</label>
+            <input class="campo-escrito" required name="precio" type="number" id=" precio" placeholder=" 100" data-price>
+   
+            <label class="campo-etiqueta" for="imagen">Imagen del Producto (URL):</label>
+            <input class="campo-escrito"  name="imagen" type="url" id="imagen"  placeholder=" https://example.com/imagen.jpg" data-image>
+    
+            <div class="contenedor-botones">
+                <button type="submit">Enviar</button>
+                <button  id="boton-limpiar" type="reset" data-limpiar>Limpiar</button>
+            </div>
+        </form>
+    </div>
+       </section>
+    </main>
+    
+    <footer class="contenedor-footer">
+        <h5><i class="fa-solid fa-heart" style="color: #fc0303;"></i>  AluraGeek</h5>
+        <p>Desarrollado por Melisa Fernández</p>
+        <p>Alura Latam - 2024</p>
+    </footer>
+
+
+    <script type="module" src="js/controllers/main.js"></script>
+ 
+    
+</body>
+</html>

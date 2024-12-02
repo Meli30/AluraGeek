@@ -1,0 +1,34 @@
+{
+    "products":[
+        {
+            "name":"Rodari",
+            "price":"20",
+            "image":"https://fieito.com/rodari-juguete-de-madera-para-bebe/",
+            "id":"1"
+
+        },
+
+        {
+          
+            "name":"Zorro",
+            "price":"50",
+            "image":"https://i.etsystatic.com/23285784/r/il/8f12a3/4634075896/il_794xN.4634075896_oauw.jpg",
+            "id":"2"  
+        },
+
+        {
+            "name":"Casita",
+            "price":"60",
+            "image":"https://ecoinventos.com/wp-content/uploads/2019/11/Juego-construcci%C3%B3n-madera.jpg",
+            "id":"3"
+
+        },
+
+        {
+            "name":"Encastre",
+            "price":"30",
+            "image":"https://http2.mlstatic.com/D_NQ_NP_2X_736498-MLA45522058621_042021-F.webp",
+            "id":"4"
+        }
+    ]
+}
