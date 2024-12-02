@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+
+body{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
 .contenedor-header{
     display: flex;
     justify-content: center;
@@ -28,7 +36,6 @@ main{
     flex-direction: column; 
     justify-content: center;
     width: 50%;
-    height: 80%;
 }
 
 .contenedor-seccion-uno h1{
@@ -107,7 +114,7 @@ main{
 
 .contenedor_principal_formulario{
     padding: 20px;
-    height: 80%;
+
 }
 
 .formulario{
@@ -118,7 +125,7 @@ main{
     border: 1px solid;
     border-radius: 10px;
     width: 500px;
-
+    gap: 8px;
 }
 
 .formulario h2{
@@ -221,7 +228,8 @@ main{
     }
     
     .formulario{
-        height: 400px;
+        height: 430px;
+        gap: 1px;
     }
 
     .formulario h2{
@@ -251,7 +259,7 @@ main{
         display: flex;
         justify-content: center;
         width: 350px;
-        height: 400px;
+        height: 500px;
     }
 
     .contenedor-botones{
