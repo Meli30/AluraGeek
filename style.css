@@ -176,7 +176,6 @@ main{
     align-items: center;
     background-color:rgb(34, 34, 59) ;
     padding: 10px;
-    height: 150px;
     color: white;
 }
 
@@ -254,7 +253,6 @@ main{
         width: 350px;
         height: 400px;
     }
-
 
     .contenedor-botones{
         padding-top: 20px;
